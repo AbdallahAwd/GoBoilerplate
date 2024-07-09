@@ -5,14 +5,22 @@ import (
 	"fmt"
 	"os"
 	"plate/cmd"
+	"plate/pkg/shared"
 )
 
 func main() {
-	template := flag.String("template", "", "Choose a template structure CMD, API")
+	template := flag.String("template", "", "Choose a template structure cli, api, all")
 	projectName := flag.String("name", "", "name of the project")
+	showVersion := flag.Bool("version", false, "Show the version of the tool")
+
 	flag.Parse()
+
+	if *showVersion {
+		fmt.Println("Version:", shared.AppVersion)
+		os.Exit(0)
+	}
 	if *template == "" {
-		fmt.Println("Choose a template structure CMD, API")
+		fmt.Println("Choose a template structure cli, api, General Web App")
 		flag.Usage()
 		os.Exit(1)
 	}
