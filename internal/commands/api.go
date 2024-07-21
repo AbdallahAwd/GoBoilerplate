@@ -3,7 +3,8 @@ package commands
 import (
 	"fmt"
 	"os"
-	"plate/internal/utils"
+
+	"github.com/AbdallahAwd/GoBoilerplate/internal/utils"
 )
 
 func APIProject(projectName string) error {

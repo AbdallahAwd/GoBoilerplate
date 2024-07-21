@@ -4,8 +4,9 @@ import (
 	"fmt"
 	"os"
 	"path/filepath"
-	"plate/internal/utils"
 	"time"
+
+	"github.com/AbdallahAwd/GoBoilerplate/internal/utils"
 )
 
 func Cmd(projectName string) error {

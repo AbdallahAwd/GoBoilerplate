@@ -4,7 +4,8 @@ import (
 	"fmt"
 	"os"
 	"path/filepath"
-	"plate/internal/utils"
+
+	"github.com/AbdallahAwd/GoBoilerplate/internal/utils"
 )
 
 func UltimateProjectStructure(projectName string) error {

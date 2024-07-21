@@ -3,7 +3,8 @@ package cmd
 import (
 	"flag"
 	"fmt"
-	"plate/internal/commands"
+
+	"github.com/AbdallahAwd/GoBoilerplate/internal/commands"
 )
 
 func Execute(temp string, projectName string) error {

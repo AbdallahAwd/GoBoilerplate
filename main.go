@@ -4,8 +4,9 @@ import (
 	"flag"
 	"fmt"
 	"os"
-	"plate/cmd"
-	"plate/pkg/shared"
+
+	"github.com/AbdallahAwd/GoBoilerplate/cmd"
+	"github.com/AbdallahAwd/GoBoilerplate/pkg/shared"
 )
 
 func main() {
