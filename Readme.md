@@ -9,7 +9,7 @@ Plate is a command-line tool that helps you quickly generate ideal project struc
 To install Plate, make sure you have Go installed on your system, then run: -->
 
 ```bash
-go install github.com/AbdallahAwd/GoBoilerplate@latest
+go install github.com/AbdallahAwd/plate@latest
 ``` 
 
 ## Usage
