@@ -4,13 +4,13 @@
 
 Plate is a command-line tool that helps you quickly generate ideal project structures for various types of Go applications. Whether you're building a CLI tool, an API, or a general-purpose project, Plate can set up the initial structure for you, saving time and ensuring consistency across your projects.
 
-<!-- ## Installation
+ ## Installation
 
 To install Plate, make sure you have Go installed on your system, then run: -->
 
-<!-- ```bash
-go install github.com/AbdallahAwd/plate@latest
-``` -->
+```bash
+go install github.com/AbdallahAwd/GoBoilerplate@latest
+``` 
 
 ## Usage
 
