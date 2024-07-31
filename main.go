@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/AbdallahAwd/GoBoilerplate/cmd"
-	"github.com/AbdallahAwd/GoBoilerplate/pkg/shared"
+	"github.com/AbdallahAwd/plate/cmd"
+	"github.com/AbdallahAwd/plate/pkg/shared"
 )
 
 func main() {

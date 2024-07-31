@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/AbdallahAwd/GoBoilerplate/internal/utils"
+	"github.com/AbdallahAwd/plate/internal/utils"
 )
 
 func APIProject(projectName string) error {

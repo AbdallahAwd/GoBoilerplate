@@ -5,7 +5,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/AbdallahAwd/GoBoilerplate/internal/utils"
+	"github.com/AbdallahAwd/plate/internal/utils"
 )
 
 func UltimateProjectStructure(projectName string) error {

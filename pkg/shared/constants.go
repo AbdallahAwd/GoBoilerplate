@@ -1,6 +1,6 @@
 package shared
 
 const (
-	AppName    = "GoBoilerplate"
+	AppName    = "plate"
 	AppVersion = "0.0.2"
 )

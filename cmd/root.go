@@ -4,7 +4,7 @@ import (
 	"flag"
 	"fmt"
 
-	"github.com/AbdallahAwd/GoBoilerplate/internal/commands"
+	"github.com/AbdallahAwd/plate/internal/commands"
 )
 
 func Execute(temp string, projectName string) error {

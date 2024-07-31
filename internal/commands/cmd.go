@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/AbdallahAwd/GoBoilerplate/internal/utils"
+	"github.com/AbdallahAwd/plate/internal/utils"
 )
 
 func Cmd(projectName string) error {

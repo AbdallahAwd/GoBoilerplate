@@ -1,3 +1,3 @@
-module github.com/AbdallahAwd/GoBoilerplate
+module github.com/AbdallahAwd/plate
 
 go 1.22.3
